@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title> Calculator</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class = "wrapper">
+	
+		<div class="calc-box dark-theme">
+		
+			<div class="theme-switch active">
+				<i class = "switch-icon" ></i>
+	        </div>
+			
+			<div class="screen">
+				<input id="result" readonly />
+	        </div>
+			
+			<div class="keypad">
+				<table>
+					<tr>
+						<td><button class="op-btn" id="clear">C</button></td>
+						<td><button class="op-btn" id="/">&divide;</button></td>
+						<td><button class="op-btn" id="*">&times;</button></td>
+						<td><button class="op-btn" id="back"><</button></td>
+					</tr>
+					<tr>
+						<td><button class="num-btn" id="7">7</button></td>
+						<td><button class="num-btn" id="8">8</button></td>
+						<td><button class="num-btn" id="9">9</button></td>
+						<td><button class="op-btn" id="-">-</button></td>
+					</tr>
+					<tr>
+						<td><button class="num-btn" id="4">4</button></td>
+						<td><button class="num-btn" id="5">5</button></td>
+						<td><button class="num-btn" id="6">6</button></td>
+						<td><button class="op-btn" id="+">+</button></td>
+					</tr>
+					<tr>
+						<td><button class="num-btn" id="1">1</button></td>
+						<td><button class="num-btn" id="2">2</button></td>
+						<td><button class="num-btn" id="3">3</button></td>
+						<td rowspan="2"><button class="equals" id="equal">=</button></td>
+					</tr>
+					<tr>
+	
+						<td><button class="op-btn" id="(">(</button></td>
+						<td><button class="num-btn" id="0">0</button></td>
+						<td><button class="op-btn" id=".">.</button></td>
+					</tr>
+				</table>
+			</div>
+			
+	    </div>
+	</div>
+	<script src='script.js'></script>
+</body>
+</html>
